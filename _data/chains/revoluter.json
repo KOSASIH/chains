@@ -1,0 +1,37 @@
+{
+  "name": "Revoluter",
+  "chain": "revoluter",
+  "rpc": [
+    "https://rpc.revoluter.network",
+    "https://rpc2.revoluter.network"
+  ],
+  "nativeCurrency": {
+    "name": "Revoluter Token",
+    "symbol": "REV",
+    "decimals": 18
+  },
+  "features": [
+    "EIP155",
+    "EIP1559",
+    "EIP712",
+    "EIP721"
+  ],
+  "infoURL": "https://revoluter.network",
+  "shortName": "rev",
+  "chainId": 1234,
+  "networkId": 1234,
+  "parent": {
+    "chain": "ethereum",
+    "chainId": 1
+  },
+  "explorers": [
+    {
+      "name": "Revoluter Explorer",
+      "url": "https://explorer.revoluter.network",
+      "standard": "EIP3091"
+    }
+  ],
+  "testnet": false,
+  "icon": "https://revoluter.network/icon.png",
+  "coingeckoId": "revoluter"
+}
