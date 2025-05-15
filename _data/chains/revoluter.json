@@ -18,8 +18,8 @@
   ],
   "infoURL": "https://revoluter.network",
   "shortName": "rev",
-  "chainId": 1234,
-  "networkId": 1234,
+  "chainId": "revoluter",
+  "networkId": "revoluter",
   "parent": {
     "chain": "ethereum",
     "chainId": 1
